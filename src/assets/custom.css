@@ -1,0 +1,39 @@
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #3b3f4b;
+    border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #494d5a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #656a7b;
+}
+
+/* global styles */
+input {
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+}
+
+.text-primary {
+    color: #8c9096;
+}
+
+.text-primary-light {
+    color: #bbbec4;
+}
